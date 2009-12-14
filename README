@@ -1,0 +1,28 @@
+NAME
+    Alien::Ditaa - Use the ditaa text to diagram package in perl
+
+SYNOPSIS
+        use Alien::Ditaa;
+        my $ditaa = Alien::Ditaa->new;
+        $ditaa->run_ditaa(@args);
+
+DESCRIPTION
+    Trivial wrapper to run ditaa from perl.
+
+SEE ALSO
+    <http://ditaa.sourceforge.net>
+
+INCLUDED SOFTWARE
+    An unmodified copy of the latest varion of ditaa.jar is included in this
+    package. The latest version and source code can be obtained from the URI
+    above.
+
+AUTHOR
+        Tomas Doran (t0m) C< bobtfish@bobtfish.net >
+
+COPYRIGHT
+    Copyright 2009 state51 (<http://www.state51.co.uk>)
+
+LICENSE
+    Licensed under the terms of the GNU GPL.
+
