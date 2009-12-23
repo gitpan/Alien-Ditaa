@@ -22,11 +22,12 @@ no_index:
 requires:
   File::ShareDir: 0
   File::Which: 0
+  IPC::Run: 0
   Method::Signatures::Simple: 0
   Moose: 0
   Path::Class: 0
   namespace::autoclean: 0
 resources:
   license: http://opensource.org/licenses/gpl-license.php
-  repository: http://goatse.co.uk/~bobtfish/Alien-Ditaa.git
-version: 0.001
+  repository: git://github.com/bobtfish/Alien-Ditaa.git
+version: 0.002

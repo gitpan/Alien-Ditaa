@@ -7,6 +7,7 @@ all_from 'lib/Alien/Ditaa.pm';
 
 license 'gpl';
 
+requires 'IPC::Run';
 requires 'File::Which';
 requires 'Path::Class';
 requires 'File::ShareDir';
@@ -20,7 +21,7 @@ prompt_script('script/ditaa');
 
 requires_external_bin 'java';
 
-resources repository => 'http://goatse.co.uk/~bobtfish/Alien-Ditaa.git';
+resources repository => 'git://github.com/bobtfish/Alien-Ditaa.git';
 
 if ($Module::Install::AUTHOR) {
     system("pod2text lib/Alien/Ditaa.pm > README")
